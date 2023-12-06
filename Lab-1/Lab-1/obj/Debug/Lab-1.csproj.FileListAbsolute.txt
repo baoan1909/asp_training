@@ -1,0 +1,7 @@
+D:\BaoAn\asp_training\Lab-1\Lab-1\bin\Lab-1.dll.config
+D:\BaoAn\asp_training\Lab-1\Lab-1\bin\Lab-1.dll
+D:\BaoAn\asp_training\Lab-1\Lab-1\bin\Lab-1.pdb
+D:\BaoAn\asp_training\Lab-1\Lab-1\obj\Debug\Lab-1.csprojAssemblyReference.cache
+D:\BaoAn\asp_training\Lab-1\Lab-1\obj\Debug\Lab-1.csproj.CoreCompileInputs.cache
+D:\BaoAn\asp_training\Lab-1\Lab-1\obj\Debug\Lab-1.dll
+D:\BaoAn\asp_training\Lab-1\Lab-1\obj\Debug\Lab-1.pdb
