@@ -9,13 +9,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1>Tính tổng 2 số nguyên.</h1>
             <div>
-                <asp:Label ID="Soa" runat="server" Text="Nhập số nguyên a"></asp:Label>
+                <asp:Label ID="Soa" runat="server" Text="Nhập số nguyên a "></asp:Label>
                 <asp:TextBox ID="tboSoa" runat="server" TextMode="Number"></asp:TextBox>
             </div>
             <br/>
             <div>
-                <asp:Label ID="Sob" runat="server" Text="Nhập số nguyên b"></asp:Label>
+                <asp:Label ID="Sob" runat="server" Text="Nhập số nguyên b "></asp:Label>
                 <asp:TextBox ID="tboSob" runat="server" TextMode="Number"></asp:TextBox>
             </div>
             <br/>
