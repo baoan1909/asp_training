@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HSdangky.aspx.cs" Inherits="Lab_2.HSdangky" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="bai1_a.aspx.cs" Inherits="Lab_2.HSdangky" %>
 
 <!DOCTYPE html>
 
@@ -18,6 +18,16 @@
         .title {
             width: 150px;
         }
+        .col{
+            width: 300px;
+        }
+        table {
+            border-collapse: collapse;
+            border: 2px solid #5930ac;
+        }
+        table, th, td {
+            border: 2px solid #5930ac;
+        }
         .btn{
             margin-top: 10px;
             text-align: center;
@@ -28,6 +38,12 @@
             color: #552761;
             font-weight: bold;
         }
+        /* CSS cho các <li> không rỗng */
+        ul li:not(:empty) {
+            list-style-type: none;
+            margin-top:10px/* Thay đổi kiểu gạch đầu dòng nếu cần */
+        }
+
     </style>
 </head>
 <body class="body">
@@ -55,14 +71,14 @@
                          <div class="row">
                             <div class="title">Giới tính</div>
                             <div>
-                                <asp:RadioButton ID="rdoNam" runat="server" text="Nam"/>
-                                <asp:RadioButton ID="rdoNu" runat="server" text="Nữ"/>
+                                <asp:RadioButton ID="rdoNam" runat="server" text="Nam" GroupName="gioiTinh"/>
+                                <asp:RadioButton ID="rdoNu" runat="server" text="Nữ" GroupName="gioiTinh"/>
                             </div>
                         </div>
                         <div class="row">
                             <div class="title">Địa chỉ</div>
                             <div>
-                                <asp:TextBox ID="tboDiachi" runat="server" Rows="2" Columns="20"></asp:TextBox>
+                                <asp:TextBox ID="tboDiachi" runat="server" TextMode="MultiLine" Rows="2" Columns="20"></asp:TextBox>
                             </div>
                         </div>
                         <div class="row">
@@ -73,24 +89,9 @@
                         </div>
                         <div class="btn" ><asp:Button ID="btnDangky" runat="server" Text="Đăng ký" OnClick="btnDangky_Click" /></div>
                     </td>
-                    <td>
-                        <ul>
-                            <li>
-                                <asp:Label ID="lblHoten" runat="server" Text="Họ tên khách hàng"></asp:Label>
-                            </li>
-                            <li>
-                                <asp:Label ID="lblGioitinh" runat="server" Text="Giới tính"></asp:Label>
-                            </li>
-                            <li>
-                                <asp:Label ID="lblEmail" runat="server" Text="Email"></asp:Label>
-                            </li>
-                             <li>
-                                <asp:Label ID="lblDiachi" runat="server" Text="Địa chỉ"></asp:Label>
-                            </li>
-                             <li>
-                                <asp:Label ID="lblSDT" runat="server" Text="Số điện thoại"></asp:Label>
-                            </li>
-                        </ul>
+                    <td class="col">
+                         <asp:BulletedList ID="blt_result" runat="server" BulletStyle="Disc" DisplayMode="Text">
+                        </asp:BulletedList>
                     </td>
                 </tr>
                 <!-- Add more rows and cells as needed -->

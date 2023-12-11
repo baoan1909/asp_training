@@ -64,16 +64,80 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HSdangky.aspx" />
+    <Content Include="bai10.aspx" />
+    <Content Include="bai1_a.aspx" />
+    <Content Include="bai1_b.aspx" />
+    <Content Include="bai2.aspx" />
+    <Content Include="bai3.aspx" />
+    <Content Include="bai4.aspx" />
+    <Content Include="bai5.aspx" />
+    <Content Include="bai6.aspx" />
+    <Content Include="bai9.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HSdangky.aspx.cs">
-      <DependentUpon>HSdangky.aspx</DependentUpon>
+    <Compile Include="bai10.aspx.cs">
+      <DependentUpon>bai10.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HSdangky.aspx.designer.cs">
-      <DependentUpon>HSdangky.aspx</DependentUpon>
+    <Compile Include="bai10.aspx.designer.cs">
+      <DependentUpon>bai10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bai1_a.aspx.cs">
+      <DependentUpon>bai1_a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bai1_a.aspx.designer.cs">
+      <DependentUpon>bai1_a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bai1_b.aspx.cs">
+      <DependentUpon>bai1_b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bai1_b.aspx.designer.cs">
+      <DependentUpon>bai1_b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bai2.aspx.cs">
+      <DependentUpon>bai2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bai2.aspx.designer.cs">
+      <DependentUpon>bai2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bai3.aspx.cs">
+      <DependentUpon>bai3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bai3.aspx.designer.cs">
+      <DependentUpon>bai3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bai4.aspx.cs">
+      <DependentUpon>bai4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bai4.aspx.designer.cs">
+      <DependentUpon>bai4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bai5.aspx.cs">
+      <DependentUpon>bai5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bai5.aspx.designer.cs">
+      <DependentUpon>bai5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bai6.aspx.cs">
+      <DependentUpon>bai6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bai6.aspx.designer.cs">
+      <DependentUpon>bai6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bai9.aspx.cs">
+      <DependentUpon>bai9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bai9.aspx.designer.cs">
+      <DependentUpon>bai9.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
