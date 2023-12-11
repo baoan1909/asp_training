@@ -11,12 +11,12 @@
         <div>
             <h1>Tính tổng, hiệu và thương của 2 số.</h1>
             <div>
-                <asp:Label ID="Soa" runat="server" Text="Nhập số nguyên a "></asp:Label>
+                <asp:Label ID="Soa" runat="server" Text="Nhập số a "></asp:Label>
                 <asp:TextBox ID="tboSoa" runat="server" TextMode="Number"></asp:TextBox>
             </div>
             <br/>
             <div>
-                <asp:Label ID="Sob" runat="server" Text="Nhập số nguyên b "></asp:Label>
+                <asp:Label ID="Sob" runat="server" Text="Nhập số b "></asp:Label>
                 <asp:TextBox ID="tboSob" runat="server" TextMode="Number"></asp:TextBox>
             </div>
             <br/>
