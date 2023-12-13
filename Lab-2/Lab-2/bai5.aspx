@@ -95,18 +95,22 @@
                         </asp:DropDownList>
                     </td>
                     <td>
-                        <asp:ListBox ID="ListBox1" runat="server" Width="80%"></asp:ListBox>
-                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/image/thung_rac.jpg" Height="20px" Width="20px"/>
+                        <asp:ListBox ID="ListBox1" runat="server" Width="80%" SelectionMode="Multiple">
+                            
+                        </asp:ListBox>
+                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/image/thung_rac.jpg" Height="20px" Width="20px" OnClick="ImageButton1_Click"/><br />
+                        <asp:Label ID="Label8" runat="server" Text=""  ForeColor="Red"></asp:Label>
                     </td>
                 </tr>
                 <tr>
                     <td class="border-right ">
                         Số lượng: <asp:TextBox ID="TextBox4" runat="server" TextMode="Number" Width="40%"></asp:TextBox> cái <br />
+                        <asp:Label ID="Label9" runat="server" Text="" ForeColor="Red"></asp:Label><br />
                         <asp:Button ID="Button1" CssClass="margin-top" runat="server" Text=">" OnClick="Button1_Click" />
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" class="border-top text"><asp:Button ID="Button2" CssClass="background" runat="server" Text="In đơn đặt hàng" /></td>
+                    <td colspan="2" class="border-top text"><asp:Button ID="Button2" CssClass="background" runat="server" Text="In đơn đặt hàng" OnClick="Button2_Click" /></td>
                 </tr>
             </table>
             <div style="margin-left: 30px; color: #ff0019">

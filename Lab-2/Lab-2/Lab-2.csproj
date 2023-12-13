@@ -73,6 +73,7 @@
     <Content Include="bai5.aspx" />
     <Content Include="bai6.aspx" />
     <Content Include="bai9.aspx" />
+    <Content Include="image\thung_rac.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
